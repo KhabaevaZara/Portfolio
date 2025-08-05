@@ -73,6 +73,7 @@ color:var(--header-text);
 /* HEADER */
 .header {
     background: var(--blue);
+    
     padding: 80px 0;
     min-height: 100vh;
     display: flex;
