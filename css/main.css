@@ -1,8 +1,8 @@
 @import "./reset.css";
 
 :root{
-    --color: #b7d9f8 ;
-    --blue: #6bafee ;
+    --color: #6bafee ;
+    --blue:   #b7d9f8  ;
     --white: white ;
     --border:#a9d2f8; 
     --dark-bg : var(--color);
@@ -67,4 +67,31 @@ color:var(--header-text);
      position: absolute;
      left:0;
      top: 100%;
+}
+
+/* HEADER */
+
+.header{
+min-height: 695px;
+padding: 40px 0;
+background-color: var(--blue);
+color:var(--header-text);
+justify-content: center;
+align-items: ;
+display: flex;
+
+}
+.header__wrapper{
+min-width: 630px;
+}
+.header__title{
+
+}
+
+.header__text{
+
+}
+
+.btn{
+     
 }
