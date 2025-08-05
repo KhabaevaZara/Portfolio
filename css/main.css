@@ -1,5 +1,17 @@
 @import "./reset.css";
 
+:root{
+    --color: #b7d9f8 ;
+    --blue: #6bafee ;
+    --white: white ;
+    --border:#a9d2f8; 
+    --dark-bg : var(--color);
+    --dark-border:var(--border);
+    --header-text:var(--white);
+    --actent:var(--blue);
+
+}
+
 .container{
     margin:0 auto;
      padding: 0 15px;
@@ -9,9 +21,9 @@
 
 .nav{
     padding:20px 0;
-    border-bottom: 1px solid #91c6f8;
-    background-color: #b7d9f8;
-    color:white;
+    border-bottom: 1px solid var(--dark-border);
+    background-color: var(--dark-bg);
+    color:var(--header-text);
 }
 
 .nav-row{
@@ -23,7 +35,7 @@
      flex-wrap: wrap ;
 }
 .logo{
-    color: white;
+    color: var(--header-text);
     font-size: 24px;
 }
 
@@ -39,7 +51,7 @@ font-size: 16px;
 }
 
 .nav-list__link{
-color:white;
+color:var(--header-text);
 
 }
 
@@ -51,7 +63,7 @@ color:white;
      display: block;
      height: 2px;
      width: 100%;
-     background-color: #fff;
+     background-color: var(--actent);
      position: absolute;
      left:0;
      top: 100%;
