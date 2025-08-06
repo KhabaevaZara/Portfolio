@@ -162,8 +162,15 @@ color:var(--header-text);
 
 }
 .projects {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+     row-gap: 30px ;
 }
+
 .project {
+    min-width: 370px; 
+    background-color: var(--white);
 }
 .project__img {
 }
