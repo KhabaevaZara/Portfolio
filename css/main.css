@@ -83,7 +83,7 @@ body {
 
 /* Navigation */
 .nav {
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 1px solid var(--dark-border);
     background-color: var(--dark-bg);
     color: var(--header-text);
@@ -95,7 +95,7 @@ body {
 }
 
 .nav.scrolled {
-    padding: 15px 0;
+    padding: 10px 0;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
