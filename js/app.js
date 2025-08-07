@@ -124,7 +124,7 @@ const translations = {
         footer_links: "Быстрые ссылки",
         footer_newsletter: "Рассылка",
         footer_newsletter_text: "Подпишитесь, чтобы получать обновления о новых проектах и статьях.",
-        footer_copyright: "&copy; 2023 Портфолио Зары. Все права защищены.",
+        footer_copyright: "2025 Портфолио Зары. Все права защищены.",
         footer_home: "Главная",
         footer_about: "Обо мне",
         footer_projects: "Проекты",
