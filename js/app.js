@@ -59,7 +59,7 @@ const translations = {
         footer_links: "Quick Links",
         footer_newsletter: "Newsletter",
         footer_newsletter_text: "Subscribe to receive updates on new projects and articles.",
-        footer_copyright: "&copy; 2023 Zara Portfolio. All rights reserved.",
+        footer_copyright: "2025 Zara Portfolio. All rights reserved.",
         footer_home: "Home",
         footer_about: "About",
         footer_projects: "Projects",
