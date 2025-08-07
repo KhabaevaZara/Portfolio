@@ -151,11 +151,13 @@ body {
     content: "";
     transition: width 0.3s ease; /* Плавное изменение ширины */
     height: 2px;
-    width: 100%;
     background-color: var(--accent);
     position: absolute;
     left: 0;
     top: 100%;
+  bottom: 0;
+  width: 0; /* Начальная ширина 0 */
+
 }
 .nav-list__link:hover::after{
 width: 100%;
