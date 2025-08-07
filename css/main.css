@@ -118,14 +118,15 @@ body {
     gap: 10px;
 }
 
-.contener{
-   
+.contener {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-  
-    row-gap: 5px;
-    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 1000;
 }
+
 
 .logo i {
     font-size: 1.8rem;
