@@ -79,16 +79,7 @@ body {
     box-shadow: 0 6px 15px rgba(107, 175, 238, 0.4);
 }
 
-.btn-outline {
-    background: transparent;
-    border: 2px solid var(--primary);
-    color: var(--primary);
-}
 
-.btn-outline:hover {
-    background: var(--primary);
-    color: var(--white);
-}
 
 /* Navigation */
 .nav {
@@ -148,23 +139,17 @@ body {
 .nav-list__link {
     color: var(--header-text);
     text-decoration: none;
-    transition: opacity 0.2s ease;
-    position: relative;
+
     font-weight: 500;
     padding: 5px 0;
-}
-
-.nav-list__link:hover {
-    opacity: 0.8;
-}
-
-.nav-list__link--active {
     position: relative;
+    display: inline-block; /* Или другой подходящий display */
+    padding-bottom: 5px; /* Отступ для полоски */
 }
 
-.nav-list__link--active::before {
+.nav-list__link::after {
     content: "";
-    display: block;
+    transition: width 0.3s ease; /* Плавное изменение ширины */
     height: 2px;
     width: 100%;
     background-color: var(--accent);
@@ -172,6 +157,10 @@ body {
     left: 0;
     top: 100%;
 }
+.nav-list__link:hover::after{
+width: 100%;
+}
+
 
 /* Language Switcher */
 .lang-switcher {
