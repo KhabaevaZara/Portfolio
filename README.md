@@ -27,16 +27,16 @@ git clone https://github.com/KhabaevaZara/portfolio.git
 cd portfolio
 ```
 
-2. Откройте файл `index.html` в браузере:
+2. Откройте файл `portfolio.html` в браузере:
 ```bash
 # Для Windows
-start index.html
+start portfolio.html
 
 # Для macOS
-open index.html
+open portfolio.html
 
 # Для Linux
-xdg-open index.html
+xdg-open portfolio.html
 ```
 
 Проект работает без дополнительных зависимостей - просто откройте HTML-файл в любом современном браузере.
@@ -45,7 +45,7 @@ xdg-open index.html
 
 ```
 portfolio/
-├── index.html          # Главная страница
+├── portfolio.html          # Главная страница
 ├── README.md           # Этот файл
 ├── css/
 │   └── main.css        # Основные стили
