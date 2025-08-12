@@ -101,12 +101,11 @@ portfolio/
 
 ## Контакты
 
-Автор проекта: Заира Хабаева  
+Автор проекта: Зара Хабаева  
 Email: ZaraKhabaeva52@gmail.com  
 Телефон: +7 (928) 065-85-32  
 GitHub: [github.com/KhabaevaZara](https://github.com/KhabaevaZara)  
 
 ---
-
-**Лицензия**: [MIT License](LICENSE)  
+  
 **Версия**: 1.0.0
